@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Reset Your Password</title>
+  </head>
+  <body>
+    <h2>Reset Your Password</h2>
+    <p>Follow this link to reset your password:</p>
+    <p>
+      <a
+        href="https://supabase.up.railway.app/auth/v1/verify?token={{.Token}}&type={{.TokenType}}&redirect_to={{.RedirectTo}}"
+        >Reset Password</a
+      >
+    </p>
+    <p>If you didn't request this, you can ignore this email.</p>
+  </body>
+</html>
