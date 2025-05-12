@@ -10,8 +10,11 @@
     <p>
       <a
         href="https://supabase.up.railway.app/auth/v1/verify?token={{ .Token }}&type=recovery&redirect_to={{ .RedirectTo }}"
-        >Reset Password</a
+        >Reset Password OG</a
       >
+    </p>
+    <p>
+      <a href="{{ .ConfirmationURL }}">{{ .ConfirmationURL }}</a>
     </p>
     <p>If you didn't request this, you can ignore this email.</p>
   </body>
